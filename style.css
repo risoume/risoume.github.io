@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family:"Open Sans",sans-serif;
+    line-height: 1.4;
+    background: #ffffff;
+    color: #222;
+}
+
+main {
+    width: 400px;
+    margin: 40px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    box-shadow:  -21px 21px 42px #d9d9d9,
+             21px -21px 42px #ffffff;
+}
+
+@media (max-width: calc(400px + 40px + 60px)) {
+    main {width: 100%;}
+}
+
+#inner {
+    margin: 30px;
+}
+
+#head {
+    padding: 20px 15px;
+    text-align: center;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#profile-img {
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#name {
+    margin: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#bio {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+#links {
+    margin: 20px 0;
+}
+
+a {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 6px;
+    background: #1d444d;
+    font-size: 11px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #2a7182;
+    scale: 1.01;
+}
